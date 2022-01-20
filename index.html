@@ -4,12 +4,13 @@
 <head>
   <meta charset="utf-8">
   <title>Andrew Santos' Site-First Attempt</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
   <table cellspacing=20>
     <tr>
-      <td><img src="AS.png" alt="Picture of abu" height="300" width="300"></td>
+      <td><img src="AS.png" alt="Picture of me" height="300"></td>
       <td><h1>Andrew Santos</h1><br>
       <p><i>Sophmore at the Univeristy of Albany</i>,
         <strong>Inspiring for New Skills and Knowledge for Success
@@ -18,12 +19,12 @@
       <p>
         My name is Andrew Santos, a current Sophomore at the University of Albany.
         Pursuing a bachelor's degree of Computer Science, I inspire to gain new skills and experience throughout my following years.
-        Skills include Intermediate Java, Python, and HTML.
+        Skills include Intermediate Java, Python, HTML, and CSS.
       </p></td>
     </tr>
   </table><br>
 
-  <hr size=3 noshade color="blue">
+  <hr class="line1">
   <h3>Education</h3>
   <ul>
     <li>Equality Charter High School (2016-2020)</li>
@@ -35,7 +36,7 @@
       <li><em>Pursuing a bachelors degree of Computer Science</em></li>
     </ul>
   </ul>
-  <hr noshade size=3 color="red">
+  <hr class="line2">
   <h3>Skills</h3>
   <ol>
     <li>HTML</li>
@@ -43,6 +44,11 @@
       <li>Use of HTML to create beginner webisites and such. Self-taught through
         <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">Web Developemnt Bootcamp</a>
       </li>
+    </ul>
+    <li>CSS</li>
+    <ul>
+      <li>Beginner use of CSS to style basic components such as background and lines.
+        Also learned through <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">Web Developemnt Bootcamp</a></li>
     </ul>
     <li>Python</li>
     <ul>
@@ -61,6 +67,10 @@
         <td>⭐⭐⭐<td>
       </tr>
       <tr>
+        <td>CSS</td>
+        <td>⭐⭐<td>
+      </tr>
+      <tr>
         <td>Python</td>
         <td>⭐⭐</td>
       </tr>
@@ -70,8 +80,15 @@
       </tr>
     </tbody>
   </table>
-  <hr noshade size=3 color="brown">
-  <p><a href="contact.html">Contact info</a></p>
+  <hr class="line3">
+  <p><a href="contact.html">Contact Info</a></p>
 </body>
 
 </html>
+<!--
+border-style applies all four sides of the border
+Ex.   border-style: dotted none none;
+^ means that the top border will be applied but the left, right, and bottom wont
+Ex. border-style: dotted
+^will apply for all sides of border
+-->
