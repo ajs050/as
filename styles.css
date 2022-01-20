@@ -1,0 +1,42 @@
+body {
+   background: #AEFEFF;
+   font-size: 18px;
+
+
+}
+hr {
+  border-color: red;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 50%;
+  height: 20px;
+}
+
+.line1 {
+  width: 80%;
+}
+.line2 {
+  width: 50%;
+}
+.line3 {
+  width: 30%;
+}
+
+img {
+  height: 300px;
+}
+h1 {
+  font-family: Cursive;
+  font-weight: lighter;
+  font-style: italic;
+  color: #000000;
+  text-decoration: underline;
+
+}
+h3 {
+  color: #000000;
+  text-decoration: underline;
+  background-color: #6867AC;
+  font-family: sans-serif;
+}
